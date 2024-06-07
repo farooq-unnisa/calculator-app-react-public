@@ -7,17 +7,18 @@ This is a basic calculator application, which has the following functionalities:
 3) resetCalculator: resets the display
 4) deleteFunction: deletes the last digit of the currentOperand
 5) dotFunction: adds decimal point to the currentOperand
-6) equalsFunction: gives the result of operations performed on previous and current operands
-Let's understand the functionality of the % symbol:
- The % symbol gives percentage value of a digit.
-  Case 1:
-    When prevOperand is empty. Say currentOperand = 2, when we click on % then result will be 0.02
-  Case 2:
-    Say previous operand = 10, this.state.operator = + and currentOperand = 1. Then when you click on % button you'll get the o/p as 10+0.1 = 10.1
-    Here 0.1 = 1% (of) 10
-Note:
-When working with decimal numbers you might face a problem as shown below:
-12.9 - 12 = 0.9000000000000004
+6) equalsFunction: gives the result of operations performed on previous and current operands.\
+   
+Let's understand the functionality of the % symbol:\
+ The % symbol gives percentage value of a digit.\
+  Case 1:\
+    When prevOperand is empty. Say currentOperand = 2, when we click on % then result will be 0.02\
+  Case 2:\
+    Say previous operand = 10, this.state.operator = + and currentOperand = 1. Then when you click on % button you'll get the o/p as 10+0.1 = 10.1\
+    Here 0.1 = 1% (of) 10\
+**Note:**
+When working with decimal numbers you might face a problem as shown below:\
+12.9 - 12 = 0.9000000000000004\
 To understand why this happens check: https://stackoverflow.com/questions/3439040/why-does-adding-two-decimals-in-javascript-produce-a-wrong-result
 
 # Getting Started with Create React App
