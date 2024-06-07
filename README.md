@@ -1,4 +1,6 @@
-#About this project
+
+# About this project:
+
 This is a basic calculator application, which has the following functionalities:
 1) numberFunction: appends numbers 
 2) operationFunction: performs addition, multiplication, subtraction and division operations
